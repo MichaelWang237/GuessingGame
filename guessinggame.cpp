@@ -1,3 +1,8 @@
+/* Michael Wang, 2/14/2021
+
+This program generates a random number between 0 and 100. The user enters guesses with feedback from the computer (too high or too low) until they find the number,
+at which point they may choose to play again (or not) */
+
 #include <iostream>
 
 using namespace std;
@@ -46,6 +51,5 @@ int main()
   if (input == 'n'){
     playstatus = 0;
   }
-  cout << playstatus;
   }
 }
