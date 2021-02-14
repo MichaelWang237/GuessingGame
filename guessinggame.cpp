@@ -21,7 +21,6 @@ int main()
 
   /*Set Rand to a number between 0 and 100*/
   randomnum = rand() % 100 + 1;
-  cout << randomnum;
   /* do while loop that runs until the user guesses the correct number*/
   while (playstatus == 1){
   do{
